@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  align-items: center;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0.1em 0.1em #333;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+canvas {
+  position: relative;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(225, 225, 225, 0.1),
+    5px 5px 5px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(225, 225, 225, 0.2);
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.cronometro {
+  font-weight: 600;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 15px;
+  padding: 30px;
+  background: white;
+}
